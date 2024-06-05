@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(PiCam2IMG) # The name of the package
+project(PiCam2ROS) # The name of the package
 
 # ament_cmake is the build system for CMake based packages in ROS 2, https://docs.ros.org/en/humble/How-To-Guides/Ament-CMake-Documentation.html
 find_package(ament_cmake REQUIRED)
