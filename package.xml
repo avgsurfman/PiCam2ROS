@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>PiCam2IMG</name> <!-- NAME OF THE PACKAGE -->
+  <name>PiCam2ROS</name> <!-- NAME OF THE PACKAGE -->
   <version>0.0.1</version>
   <description>Publishes an image of the camera every few seconds.</description> 
   <maintainer email="franciszek.moszczuk@gmail.com">Franciszek Moszczuk</maintainer> 
