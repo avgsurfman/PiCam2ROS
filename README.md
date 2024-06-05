@@ -14,4 +14,4 @@ This example uses and requires [cv_bridge](https://github.com/ros-perception/vis
 
 ## License
 
-This project is licensed on [WTFPL](http://www.wtfpl.net/about/) License.
+This project is licensed on [WTFPLv2](http://www.wtfpl.net/about/) License.

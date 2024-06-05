@@ -1,9 +1,11 @@
 #!/bin/python3
 
-# stdlib 
-import sys
 
-# ROS2 
+# stdlib
+import sys
+import traceback
+
+# ROS2
 import rclpy
 from sensor_msgs.msg import Image
 from rclpy.node import Node
@@ -18,7 +20,7 @@ class PiCam2IMGPublish(Node):
 
     def __init__(self):
         """
-        Sets up Picam2, publishes images 
+        Sets up Picam2, publishes images
         """
         try:
             self.picam2 = Picamera2()
@@ -30,7 +32,7 @@ class PiCam2IMGPublish(Node):
         except IndexError:
             print(f"Error: You've most likely inserted the ribbon during bootup. \
                     This will not work. \n {e}", file=sys.stderr)
-            traceback_print_last(file=sys.stderr)
+            traceback.traceback_print_last(file=sys.stderr)
             exit(-1)
         self.capture_config = self.picam2.create_still_configuration(
                 {
