@@ -15,7 +15,8 @@
 ----------------------------------------------------------------------
 
 
-The dependencies (cv_bridge, ROS2) are available under Apache License 2.0.
+The dependencies (cv_bridge, ROS2) are available under Apache License 2.0 and
+3-clause BSD license.
 
 https://github.com/ros-perception/vision_opencv/blob/rolling/LICENSE-Apache
 https://github.com/ros-perception/vision_opencv/blob/rolling/LICENSE-BSD
