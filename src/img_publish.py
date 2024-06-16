@@ -34,6 +34,7 @@ class PiCam2IMGPublish(Node):
                     This will not work. \n {e}", file=sys.stderr)
             traceback.traceback_print_last(file=sys.stderr)
             exit(-1)
+        # THIS IS A DUMMY VALUE - DOES NOT CHANGE ANYTHING
         self.capture_config = self.picam2.create_still_configuration(
                 {
                     "format": "RGB888"
